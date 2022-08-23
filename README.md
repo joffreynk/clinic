@@ -1,7 +1,8 @@
 # Clinic database
 
 > This project uses a relational database to create patients records, treatments served, the billing and the hisory of treatments and invoices. this project was built on given database structure which can be refered:
-https://github.com/microverseinc/curriculum-databases/blob/main/db-structure/images/clinic_diagram.png
+![clinic_diagram](https://user-images.githubusercontent.com/68817603/186279563-ee0ed4bc-10b8-4d80-beaa-11636e7606f9.png)
+
 
 ## Getting Started
 
