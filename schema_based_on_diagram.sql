@@ -42,6 +42,8 @@ CREATE TABLE invoices(
   CONSTRAINT medical_histories_ref FOREIGN KEY(medical_history_id) REFERENCES medical_histories(id)
 );
 
+CREATE UNIQUE INDEX medical_history_index ON invoices(medical_history_id);
+
 --  create invoice items table
 
 CREATE TABLE invoice_items(
